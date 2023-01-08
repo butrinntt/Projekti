@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+
+.nav {
+  width: 100%;
+  background-color: rgb(230, 128, 12);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotekst {
+  color: black;
+  margin-left: 1%;
+  font-family: "Segoe Script", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+.nav img {
+  width: 5%;
+  margin-left: -52%;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+ul,
+li,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0px;
+}
+
+.links {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.links:hover {
+  background-color: #373636;
+}
+
+.merchandise {
+    background-color: #1465c2;
+}
+
+main h1 {
+  color: white;
+}
+
+.colour {
+  height: 5px;
+  width: 100%;
+  background-color: #1465c2;
+  margin-top: -5px;
+}
+.merchandises {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+}
+.merchandise a:hover h1{
+  color: rgb(63, 63, 250);
+}
+
+.merchandises img {
+  width: 500px;
+  height: 500px;
+  margin-top: 4%;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.merch {
+  position: relative;
+ }
+.merch h1 {
+  width: 100%;
+  height: 8%;
+  position: absolute;
+  text-align: center;
+  bottom: -9px;
+  font-size: 22px;
+  background-color: #1b1b1bcd; 
+  transition: 0.4s;
+}
+.merchandises a:hover h1 {
+  color: rgb(109, 109, 252);
+}
