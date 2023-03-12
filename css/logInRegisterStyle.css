@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-image: url("../images/backround.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
   color: #000000;
@@ -18,19 +18,35 @@ body {
   align-items: center;
 }
 
+.nav {
+  width: 100%;
+  background-color: rgb(230, 128, 12);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logotekst {
   color: black;
   margin-left: 1%;
   font-family: "Segoe Script", Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 1px;
 }
-.nav img {
-  width: 5%;
-  margin-left: -45%;
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav .logo img {
+  width: 150px;
+  height: auto !important;
+  margin-left: 0%;
 }
 
 ul {
   margin-bottom: 0px;
+  padding-right: 20px;
 }
 
 ul,
@@ -52,18 +68,20 @@ a {
   background-color: black;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 1.45vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.45vw;
   cursor: pointer;
 }
 
 .links:hover {
   background-color: #373636;
 }
-.login{
+.login {
   background-color: purple;
 }
 .colour {
@@ -72,7 +90,7 @@ a {
   background-color: purple;
   margin-top: -5px;
 }
-.register{
+.register {
   background-color: rgb(241, 9, 67);
 }
 .colour2 {
@@ -186,4 +204,82 @@ a {
 #confirm-password-error {
   color: red;
   display: none;
+}
+@media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+  }
+  .logotekst {
+    font-size: 32px;
+    margin-top: 16px;
+    float: right;
+  }
+  .nav img {
+    width: 50%;
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .nav li {
+    margin: 8px 0;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .logotekst {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .logotekst + img {
+    margin-left: 1rem;
+  }
+
+  .nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 16px;
+    overflow-x: hidden;
+    width: 80%;
+    margin-right: 2vw;
+    padding-right: 15vw;
+  }
+
+  .nav ul li {
+    margin-right: 10px;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .links {
+    padding: 1.75vw;
+    font-size: 2.3vw;
+  }
 }

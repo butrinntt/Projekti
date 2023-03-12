@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Register</title>
   <script type="text/javascript" src="../js/validation.js"></script>
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/logInRegisterStyle.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet" />
@@ -17,8 +17,10 @@
 <body>
   <header>
     <div class="nav">
-      <h1 class="logotekst">Fireflies</h1>
-      <img src="../images/firefly.png" alt="firefly" />
+      <div class="logo">
+        <h1 class="logotekst">Fireflies</h1>
+        <img src="../images/firefly.png" alt="firefly" />
+      </div>
       <ul>
         <li><a class="links" href="home.php">Home</a></li>
         <li><a class="links" href="schedule.php">Schedule</a></li>

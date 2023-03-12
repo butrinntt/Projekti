@@ -60,41 +60,53 @@ class Model
         }
     }
 
-    // public function teamfetch()
-    // {
-    //     $data = null;
-    //     $query = "SELECT * FROM TeamContent";
-    //     if ($sql = $this->conn->query($query)) {
-    //         while ($row = mysqli_fetch_assoc($sql)) {
-    //             $data[] = $row;
-    //         }
-    //     }
-    //     return $data;
-    // }
+    public function merchandisefetch()
+    {
+        $data = null;
+        $query = "SELECT * FROM merchandise";
+        if ($sql = $this->conn->query($query)) {
+            while ($row = mysqli_fetch_assoc($sql)) {
+                $data[] = $row;
+            }
+        }
+        return $data;
+    }
+    public function schedulefetch()
+    {
+        $data = null;
+        $query = "SELECT * FROM schedule";
+        if ($sql = $this->conn->query($query)) {
+            while ($row = mysqli_fetch_assoc($sql)) {
+                $data[] = $row;
+            }
+        }
+        return $data;
+    }
+    
 
-    // public function homefetch()
-    // {
-    //     $data = null;
-    //     $query = "SELECT * FROM HomeContent";
-    //     if ($sql = $this->conn->query($query)) {
-    //         while ($row = mysqli_fetch_assoc($sql)) {
-    //             $data[] = $row;
-    //         }
-    //     }
-    //     return $data;
-    // }
+    public function homefetch()
+    {
+        $data = null;
+        $query = "SELECT * FROM home";
+        if ($sql = $this->conn->query($query)) {
+            while ($row = mysqli_fetch_assoc($sql)) {
+                $data[] = $row;
+            }
+        }
+        return $data;
+    }
 
-    // public function projectsfetch()
-    // {
-    //     $data = null;
-    //     $query = "SELECT * FROM ProjectsContent";
-    //     if ($sql = $this->conn->query($query)) {
-    //         while ($row = mysqli_fetch_assoc($sql)) {
-    //             $data[] = $row;
-    //         }
-    //     }
-    //     return $data;
-    // }
+    public function teachersfetch()
+    {
+        $data = null;
+        $query = "SELECT * FROM teachers";
+        if ($sql = $this->conn->query($query)) {
+            while ($row = mysqli_fetch_assoc($sql)) {
+                $data[] = $row;
+            }
+        }
+        return $data;
+    }
 
 
     public function fetch()
