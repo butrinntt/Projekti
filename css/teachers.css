@@ -61,7 +61,7 @@ a {
 }
 
 .main-h1 {
-  color: #a17fe6;
+  color: #fa0dc7;
   margin: 0 auto;
   margin-top: 75px;
   text-align: center;
@@ -81,17 +81,16 @@ a {
   width: 500px;
 }
 
-.home {
-  background-color: #a17fe6;
+.teachers {
+  background-color: #fa0dc7;
 }
 
 .colour {
   height: 5px;
   width: 100%;
-  background-color: #a17fe6;
+  background-color: #fa0dc7;
   margin-top: -5px;
 }
-
 
 .fotoja1 {
   display: flex;
@@ -111,7 +110,7 @@ a {
 
 .fotoja1 h1 span {
   font-size: 40px;
-  color: #a17fe6;
+  color: #fa0dc7;
 }
 
 .fotoja2 {
@@ -131,7 +130,7 @@ a {
 
 .fotoja2 h1 span {
   font-size: 40px;
-  color: #a17fe6;
+  color: #fa0dc7;
 }
 
 .fotoja3 {
@@ -152,5 +151,5 @@ a {
 
 .fotoja3 h1 span {
   font-size: 40px;
-  color: #a17fe6;
+  color: #fa0dc7;
 }

@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="../css/home.css" />
+    <title>Teachers</title>
+    <link rel="stylesheet" href="../css/teachers.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,11 +23,12 @@
         <h1 class="logotekst">Fireflies</h1>
         <img src="../images/firefly.png" alt="firefly" />
         <ul>
-          <li><a class="links home" href="home.html">Home</a></li>
-          <li><a class="links" href="schedule.html">Schedule</a></li>
-          <li><a class="links" href="merchandise.html">Merchandise</a></li>
-          <li><a class="links" href="login.html">Login</a></li>
-          <li><a class="links" href="register.html">Register</a></li>
+          <li><a class="links" href="home.php">Home</a></li>
+          <li><a class="links" href="schedule.php">Schedule</a></li>
+          <li><a class="links" href="merchandise.php">Merchandise</a></li>
+          <li><a class="links teachers" href="teachers.php">Teachers</a></li>
+          <li><a class="links" href="login.php">Login</a></li>
+          <li><a class="links" href="register.php">Register</a></li>
         </ul>
       </div>
       <div class="colour"></div>

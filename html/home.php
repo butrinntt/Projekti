@@ -26,6 +26,7 @@
           <li><a class="links home" href="home.php">Home</a></li>
           <li><a class="links" href="schedule.php">Schedule</a></li>
           <li><a class="links" href="merchandise.php">Merchandise</a></li>
+          <li><a class="links" href="teachers.php">Teachers</a></li>
           <li><a class="links" href="login.php">Login</a></li>
           <li><a class="links" href="register.php">Register</a></li>
         </ul>
