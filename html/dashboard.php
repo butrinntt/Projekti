@@ -8,7 +8,6 @@ if(!isset($_SESSION['UserType'])){
 if($_SESSION['UserType'] != 'admin'){
     echo "<script>alert('You are not an admin!');</script>";
     echo "<script>window.location.href = 'home.php'</script>";
-    // header("Location: home.php");
 }
 ?>
 

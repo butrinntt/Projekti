@@ -19,16 +19,6 @@
 
     }
 
-
-
-    /* :root {
-      --main-color: #7c9ad1;
-      --secondary-color: #acd8e4;
-      --gray-color: #f3f1f1;
-      --text-gray: #8a8888;
-      --text-black: #3b3b3b;
-    } */
-
     .input-container {
       display: flex;
       align-items: center;

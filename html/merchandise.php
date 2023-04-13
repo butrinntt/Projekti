@@ -52,44 +52,6 @@
           </div>
         </a>
       <?php } ?>
-      <!-- <a href="#">
-        <div class="merch">
-          <img src="<?php echo $rows[0]['img']; ?>" alt="<?php echo $rows[0]['type']; ?>" />
-          <h1>
-            <?php echo $rows[0]['text']; ?>
-          </h1>
-        </div>
-      </a>
-      <a href="#">
-        <div class="merch">
-          <img src="../images/abacus.jpg" alt="abacus" />
-          <h1>Abacus</h1>
-        </div>
-      </a>
-      <a href="#">
-        <div class="merch">
-          <img src="../images/pencilCase.jpg" alt="pencilCase" />
-          <h1>Pencil case</h1>
-        </div>
-      </a>
-      <a href="#">
-        <div class="merch">
-          <img src="../images/backpackGirls.jpg" alt="backpackGirls" />
-          <h1>Backpack for girls</h1>
-        </div>
-      </a>
-      <a href="#">
-        <div class="merch">
-          <img src="../images/colours.jpg" alt="colours" />
-          <h1>Colours</h1>
-        </div>
-      </a>
-      <a href="#">
-        <div class="merch">
-          <img src="../images/pens.jpeg" alt="pens" />
-          <h1>Pens</h1>
-        </div>
-      </a> -->
     </div>
   </main>
   <?php
