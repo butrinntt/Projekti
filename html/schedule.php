@@ -50,32 +50,6 @@
         </div>
         </a>
       <?php } ?>
-      <!-- <div class="sched">
-        <img src="../images/kidsLearning.jpg" alt="kidsLearning" />
-        <p>
-          We like to start the morning at 09:00 with some learning of basic
-          math, language and other important subjects. Every 30 minutes, we
-          take 5 minute breaks, and we end the session at 10:30.
-        </p>
-      </div>
-      <div class="sched">
-        <img src="../images/kidsEating.jpg" alt="kidsEating" />
-        <p>
-          After their hard work, we like to give the kids a break with a 1
-          hour nap. It boosts their energy, and improves their mood, while
-          also making it easier for them to remember what they learned. After
-          the nap the kids must be very hungry, so we cook them a delicious
-          and healthy meal.
-        </p>
-      </div>
-      <div class="sched">
-        <img src="../images/kidsPlaying.jpg" alt="kidsPlaying" />
-        <p>
-          Around 12:30, after the kids have filled their bellies, they are free
-          to go out and have fun with each other, or they can stay inside and
-          play with our many toys, or even read their favorite books. We close
-          at 15:00 at which time you can pick your kids up.
-        </p> -->
     </div>
     </div>
   </main>
