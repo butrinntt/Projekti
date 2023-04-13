@@ -82,7 +82,7 @@ class Model
         }
         return $data;
     }
-    
+
 
     public function homefetch()
     {
@@ -139,7 +139,7 @@ class Model
 
         $query = "SELECT * FROM users WHERE ID = '$id'";
         if ($sql = $this->conn->query($query)) {
-            while ($row = $sql->fetch_assoc()) {
+            while ($row = mysqli_fetch_assoc($sql)) {
                 $data = $row;
             }
         }
